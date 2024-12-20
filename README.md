@@ -14,9 +14,11 @@ Updating 1005fea..60ace18
 Fast-forward
  _modules/screenprint.py | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
+```
 
-## then on the minions, you would want to sync it
+Then on the minions, you would want to sync it:
 
+```
 ┌─[zerokool@skynet]─[/srv/salt]
 └──╼ $ sudo salt 'windows-test-minion' saltutil.sync_modules
 windows-test-minion:
@@ -25,7 +27,7 @@ windows-test-minion:
 
 This indicates the module is now copied over, so let's test:
 
-NB: This needs run on every minion, but this is a good way to test the water.
+<b>NB: This needs run on every minion, but this is a good way to test the water.>/b>
 
 ```
 ┌─[zerokool@skynet]─[/home/knightmare]
