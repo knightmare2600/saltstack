@@ -1,5 +1,6 @@
 Use git pull or clone or create file by hand, etc:
 
+```
 ┌─[zerokool@skynet]─[/srv/salt]
 └──╼ $ sudo git pull
 remote: Enumerating objects: 7, done.
