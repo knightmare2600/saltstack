@@ -27,7 +27,7 @@ windows-test-minion:
 
 This indicates the module is now copied over, so let's test:
 
-<b>NB: This needs run on every minion, but this is a good way to test the water.>/b>
+<b>NB: This needs run on every minion, but this is a good way to test the water.</b>
 
 ```
 ┌─[zerokool@skynet]─[/home/knightmare]
